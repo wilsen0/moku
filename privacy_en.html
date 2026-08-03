@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgentBox Privacy Policy - AgentBox</title>
+    <title>Moku Privacy Policy - Moku</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -136,38 +136,80 @@
                     <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                 </svg>
             </div>
-            <h1>AgentBox Privacy Policy</h1>
-            <div class="meta">Last Updated: June 26, 2026 | Effective Date: June 26, 2026</div>
+            <h1>Moku Privacy Policy</h1>
+            <div class="meta">Last Updated: July 22, 2026 | Effective Date: July 22, 2026</div>
         </div>
         <div class="content">
-                <p>AgentBox ("the App") is a cross-platform SSH workspace and terminal tool developed by the developer team ("we", "us", or "our"). We respect your privacy and are committed to protecting it through our compliance with this policy.</p>
-    <h3>1. Core Security & Disclaimer (Important)</h3>
-    <p>As a local-first client tool, the App adheres to the following privacy-first principles:</p>
+                <p>Moku is provided by the developer identified on its store listing (GitHub account: <strong>wilsen0</strong>; “we,” “us,” or “the developer”). Privacy questions and requests may be submitted through: <a href="https://github.com/wilsen0/AgentBox/issues" rel="noopener noreferrer">https://github.com/wilsen0/AgentBox/issues</a></p>
+    <p>This policy describes how the Moku application (“Moku” or “the App”) handles data. Moku is an account-free, local-first SSH, Mosh, SFTP, server-management, and coding-workspace client. We do not operate a Moku cloud account service, advertising service, analytics service, or data-broker service.</p>
+    <h2>1. Data stored on your device</h2>
+    <p>Depending on the features you use, Moku may store the following app data locally:</p>
     <ul>
-        <li><strong>Local Credentials</strong>: Your server connection details (including IP addresses, ports, usernames, passwords, SSH private keys) are stored encrypted <strong>only</strong> on your local device. We <strong>never</strong> upload or transmit your credentials to our servers.</li>
-        <li><strong>Biometric Data</strong>: When you enable biometric authentication (fingerprint/Face ID), the App only invokes the system-secure APIs (e.g., iOS Keychain/Android Keystore). We <strong>do not collect</strong> and <strong>cannot access</strong> your biometric data.</li>
+        <li>Saved host names, addresses, ports, usernames, passwords, SSH key material or local key references, jump-host settings, ProxyCommand settings, environment variables, tags, and host-key fingerprints.</li>
+        <li>Terminal-session metadata, command snippets, SFTP path history, server status caches, coding-project/session metadata, port-forward settings, app preferences, and diagnostic logs.</li>
+        <li>Optional AI endpoint, model, and API key settings.</li>
+        <li>Optional backup configuration, including WebDAV username and URL, and credentials required to access a remote destination.</li>
     </ul>
-    <h3>2. Data Collection and Usage</h3>
-    <p>We only collect or transmit data in the following essential scenarios:</p>
+    <p>App databases are encrypted at rest using a device-generated key kept through the operating system’s secure-storage facility. Particularly sensitive backup and WebDAV credentials are stored through system secure storage. No storage method can guarantee absolute security, so you should also secure your device and remote accounts.</p>
+    <p>When biometric app protection is enabled, Moku asks the operating system to authenticate you. Moku does not receive or store fingerprint, face-template, or other biometric-template data.</p>
+    <h2>2. Remote-server connections</h2>
+    <p>When you initiate SSH, Mosh, SFTP, Wake-on-LAN, Docker, process, systemd, coding-workspace, or related operations, Moku communicates with the server or local-network device you selected. Data necessary for the requested operation—including connection address, authentication exchange, commands, terminal input/output, and transferred files—passes between your device and that destination.</p>
+    <p>These transfers are necessary to provide the feature you requested. The Moku developer does not proxy or receive this traffic. The destination server, network operator, or service administrator may process connection metadata and content according to its own configuration and policies.</p>
+    <h2>3. Optional AI features</h2>
+    <p>AI features are off until you configure an API endpoint, API key, and model and choose to use them. Before selected terminal text is sent to a newly configured host, Moku displays an in-app disclosure and asks you to continue.</p>
+    <p>When you use an AI feature, the following may be transmitted directly from your device to the API endpoint you configured:</p>
     <ul>
-        <li><strong>AI Terminal Assistant</strong>: When using the AI Assistant, your prompts and CLI context will be sent directly to your configured AI Provider (e.g., Google, OpenAI) for processing. The App itself does not store or analyze these prompts.</li>
-        <li><strong>Network Connectivity</strong>: The App requires network permissions to establish SSH/SFTP connections, perform Wake-on-LAN (WOL), and access AI services.</li>
-        <li><strong>Diagnostics Logs</strong>: If you experience errors, you may choose to copy and share logs with us to help troubleshoot. Logs contain basic runtime traces and <strong>never</strong> expose password or private key data.</li>
+        <li>Selected terminal text, command output, prompts, follow-up messages, and limited conversation context.</li>
+        <li>The configured model name and authentication credential required by that API.</li>
+        <li>Technical request metadata normally exposed by a network request, such as IP address and user agent or protocol headers.</li>
     </ul>
-    <h3>3. System Permissions</h3>
-    <p>We may request the following permissions only when necessary:</p>
+    <p>Moku requires HTTPS for remote AI endpoints; unencrypted HTTP is permitted only for a loopback address on your own device. The developer does not receive a copy of AI requests or responses. The configured AI provider may log, retain, or use the content under its own terms and privacy policy. Do not send passwords, private keys, access tokens, personal data, or other confidential information to an AI provider unless you have authority to do so and accept that provider’s practices.</p>
+    <h2>4. Backups, exports, and sharing</h2>
+    <p>Moku does not enable Android system cloud backup for its app data. Optional backup and sharing functions are controlled by you:</p>
     <ul>
-        <li><strong>Network Access</strong>: To connect to remote servers and AI services.</li>
-        <li><strong>Storage / Files Access</strong>: To import SSH keys and perform SFTP file transfers.</li>
-        <li><strong>Biometric Auth</strong>: To unlock the App secure shield.</li>
-        <li><strong>Notifications</strong>: To maintain SSH connection status in the background.</li>
+        <li><strong>Local file export:</strong> You may export a backup to a file or the system share sheet. A local export may be protected with a backup password. You control where an exported copy is stored or sent.</li>
+        <li><strong>iCloud or WebDAV:</strong> If you explicitly enable a remote destination, Moku requires a backup password and encrypts the backup on your device before upload. The selected provider receives the encrypted file and ordinary network metadata. Destination credentials are stored using system secure storage where supported.</li>
+        <li><strong>QR sharing:</strong> Server QR codes generated by the current App exclude passwords, key references, jump-host topology, proxy commands, custom commands, and environment variables. A QR code still contains connection metadata such as host name/address, port, and username; share it only with intended recipients.</li>
+        <li><strong>Operating-system share sheet:</strong> If you share a file or text with another app, that app’s privacy practices apply.</li>
     </ul>
-    <h3>4. Your Rights & Data Deletion</h3>
-    <p>Since this is an account-free, local utility app, all data resides on your device. You can completely erase all data associated with the App by uninstalling it.</p>
-    <p>If you have questions, please reach out via GitHub Issues.</p>
+    <p>Remote backup providers retain copies until you delete them using Moku or the provider’s tools, subject to the provider’s retention rules. Backups uploaded by an older app version may not have had the same safeguards; we recommend deleting older remote copies and uploading a newly encrypted backup.</p>
+    <h2>5. Camera, files, notifications, and background operation</h2>
+    <ul>
+        <li><strong>Camera:</strong> Used only when you open QR import. Camera frames are processed on the device and are not recorded, saved, or uploaded by Moku. Moku does not record audio.</li>
+        <li><strong>Files:</strong> System file pickers and app-specific storage are used when you import keys, upload/download through SFTP, edit files, or export/import backups. Moku does not request broad legacy external-storage access in the current Android release.</li>
+        <li><strong>Notifications and foreground service:</strong> If you enable background connection support, Android may show a persistent notification while user-started SSH or Mosh sessions are active. The notification may show a server alias and session status. You can stop the sessions from the notification or disable the feature in Settings.</li>
+        <li><strong>Biometric authentication:</strong> Used only to ask the operating system to unlock protected app access.</li>
+        <li><strong>Network and vibration:</strong> Network access provides remote connectivity; vibration may provide interaction feedback.</li>
+    </ul>
+    <p>Permissions are requested only when required by the selected feature. Denying an optional permission may disable that feature without preventing unrelated features from working.</p>
+    <h2>6. Diagnostic logs</h2>
+    <p>Moku keeps bounded local diagnostic logs to help identify failures and performance problems. Logs are not automatically uploaded to the developer. They may include timestamps, feature names, status codes, server aliases or internal identifiers, file-transfer sizes, and error or stack information. We design logs not to intentionally record passwords, private-key contents, API keys, tokens, AI prompts, terminal payloads, or full SFTP paths, but an operating-system or third-party-library error could still contain unexpected details.</p>
+    <p>You decide whether to copy or share logs. Review and redact them before sending. If you submit logs through GitHub or another service, that service’s policy applies.</p>
+    <h2>7. Third parties and data sharing</h2>
+    <p>Moku contains no third-party advertising SDK and no developer-operated behavioral analytics or tracking SDK. Data leaves your device only as needed for a feature you direct or enable, including transfers to:</p>
+    <ul>
+        <li>Servers, jump hosts, proxies, or local-network devices you configure.</li>
+        <li>An AI API endpoint you configure.</li>
+        <li>Apple iCloud or a WebDAV service when you enable that backup destination.</li>
+        <li>An app or person you choose through export, QR, or the operating-system share sheet.</li>
+        <li>GitHub if you voluntarily contact us or submit an issue.</li>
+    </ul>
+    <p>We do not sell personal data. We do not receive these feature transfers through a Moku server. Third-party destinations act under their own terms, security controls, and retention practices.</p>
+    <h2>8. Retention and deletion</h2>
+    <p>Local data remains on the device until you delete individual records, choose <strong>Settings  →  Delete all local data</strong>, clear the App’s storage through the operating system, or uninstall the App. Android automatic app-data backup is disabled in the current release. Because some operating systems may retain secure-storage entries after uninstall, use the in-app deletion action before uninstall when you need a complete user-directed wipe. The in-app action removes app databases, preferences, locally stored backup state, and app secrets, but does not delete copies you previously exported, shared, or uploaded.</p>
+    <p>To delete remote copies, use Moku’s applicable backup controls or the destination provider’s deletion tools. To delete AI-provider records, contact or use the controls of that provider. Because Moku has no user accounts and the developer does not receive your local data or feature traffic, the developer normally has no server-side copy to delete.</p>
+    <h2>9. Children</h2>
+    <p>Moku is a professional server-administration tool and is not directed to children under 13 (or the minimum age required in their country). We do not knowingly operate a service that collects children’s personal data. A parent or guardian who believes a child submitted data to us through our support channel should contact us.</p>
+    <h2>10. Security and international transfers</h2>
+    <p>Moku uses encrypted local databases, system secure storage, SSH/Mosh or HTTPS transport where applicable, and encrypted remote-backup payloads. Data sent to a destination you choose may be processed in the country where that destination or provider operates. You are responsible for selecting destinations and configurations appropriate for your legal and security requirements.</p>
+    <h2>11. Changes to this policy</h2>
+    <p>We may update this policy when features, laws, or data practices change. We will update the “Last Updated” date and, when appropriate, provide an in-app notice or request renewed acknowledgement. Materially different processing will not be hidden behind an old consent.</p>
+    <h2>12. Contact</h2>
+    <p>Developer: Moku developer listed on the app store (GitHub: <strong>wilsen0</strong>)</p>
+    <p>Privacy and deletion inquiries: <a href="https://github.com/wilsen0/AgentBox/issues" rel="noopener noreferrer">https://github.com/wilsen0/AgentBox/issues</a></p>
         </div>
         <footer>
-            &copy; 2026 AgentBox. All rights reserved.
+            &copy; 2026 Moku. All rights reserved.
         </footer>
     </div>
 </body>

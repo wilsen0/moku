@@ -1,12 +1,16 @@
-# AgentBox (Agent-SSH)
+# Moku
 
 [English](README.md) | 简体中文
 
-AgentBox 是一款专注于高效远程连接的跨平台 SSH 工作区。它提供会话优先的现代化终端界面，支持快速远程访问、便捷的 SFTP 文件管理，以及可选的 AI 辅助命令行工具。
+Moku 是 Porthole Lab 出品的本地优先 SSH / Mosh 工作台。多标签终端会话、
+SFTP 文件管理、Docker 与服务器运维，覆盖 iOS、Android、macOS、Linux 与
+Windows — 数据在本机加密，无需云账号。
+
+产品站点：[portholelab.com/moku](https://portholelab.com/moku/)
 
 ## 📥 安装包与版本下载
 
-这是 AgentBox 的公开分发与发布仓库。我们在此发布经过验证的正式版安装包，请从官方 Releases 下载：
+这是 Moku 的公开分发与发布仓库。我们在此发布经过验证的正式版安装包，请从官方 Releases 下载：
 
 👉 **[前往 Releases 安装包下载](https://github.com/wilsen0/AgentBox/releases)**
 
@@ -28,4 +32,4 @@ AgentBox 是一款专注于高效远程连接的跨平台 SSH 工作区。它提
 
 ---
 
-&copy; 2026 AgentBox. 保留所有权利。
+&copy; 2026 Moku · Porthole Lab 出品。保留所有权利。
