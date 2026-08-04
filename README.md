@@ -14,7 +14,7 @@ This is the public distribution repository for Moku. We release verified
 production packages here. Please download the installation packages from our
 official Releases:
 
-👉 **[Download Releases](https://github.com/wilsen0/AgentBox/releases)**
+👉 **[Download Releases](https://github.com/wilsen0/moku/releases)**
 
 | Platform | Format |
 |---|---|
@@ -29,8 +29,8 @@ Moku is built with privacy in mind. We operate on a **local-first** security mod
 * **AI Processing**: Requests to the terminal AI assistant go directly to your configured API endpoint. We do not inspect or store your queries.
 
 Read our complete policies:
-* **[Privacy Policy](https://wilsen0.github.io/AgentBox/privacy_en.html)**
-* **[User Agreement](https://wilsen0.github.io/AgentBox/terms_en.html)**
+* **[Privacy Policy](https://wilsen0.github.io/moku/privacy_en.html)**
+* **[User Agreement](https://wilsen0.github.io/moku/terms_en.html)**
 
 ---
 

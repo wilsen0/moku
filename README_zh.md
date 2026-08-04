@@ -12,7 +12,7 @@ Windows — 数据在本机加密，无需云账号。
 
 这是 Moku 的公开分发与发布仓库。我们在此发布经过验证的正式版安装包，请从官方 Releases 下载：
 
-👉 **[前往 Releases 安装包下载](https://github.com/wilsen0/AgentBox/releases)**
+👉 **[前往 Releases 安装包下载](https://github.com/wilsen0/moku/releases)**
 
 | 支持平台 | 安装包格式 |
 |---|---|
@@ -27,8 +27,8 @@ Windows — 数据在本机加密，无需云账号。
 * **AI 助手隐私**：AI 终端助手的 Prompt 与命令生成请求直接发送至您配置的 AI 服务提供商，我们不留存或转售您的任何对话内容。
 
 阅读我们的完整条款：
-* **[隐私政策 (Privacy Policy)](https://wilsen0.github.io/AgentBox/privacy.html)**
-* **[用户服务协议 (User Agreement)](https://wilsen0.github.io/AgentBox/terms.html)**
+* **[隐私政策 (Privacy Policy)](https://wilsen0.github.io/moku/privacy.html)**
+* **[用户服务协议 (User Agreement)](https://wilsen0.github.io/moku/terms.html)**
 
 ---
 
