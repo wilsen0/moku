@@ -8,17 +8,22 @@ Windows — 数据在本机加密，无需云账号。
 
 产品站点：[portholelab.com/moku](https://portholelab.com/moku/)
 
+> **开源计划** — 本项目将在本仓库 **star 数超过 1 万后开源**。
+
 ## 📥 安装包与版本下载
 
 这是 Moku 的公开分发与发布仓库。我们在此发布经过验证的正式版安装包，请从官方 Releases 下载：
 
 👉 **[前往 Releases 安装包下载](https://github.com/wilsen0/moku/releases)**
 
-| 支持平台 | 安装包格式 |
-|---|---|
-| Android (安卓) | APK 安装包 |
-| macOS (苹果) | DMG 镜像包 |
-| Windows / Linux | 免安装/独立运行包 |
+| 支持平台 | 状态 | 安装包格式 |
+|---|---|---|
+| Android (安卓) | ✅ 已上线 | APK 安装包 |
+| iOS (苹果) | 🚧 筹备中 | — |
+| macOS | 🚧 筹备中 | — |
+| Windows / Linux | 🚧 筹备中 | — |
+
+每个版本均附带 `sha256` 校验文件，安装前请先校验。
 
 ## 🔒 安全与隐私合规说明
 

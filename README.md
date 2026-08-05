@@ -8,6 +8,9 @@ Windows — encrypted on your device, no cloud account.
 
 Product site: [portholelab.com/moku](https://portholelab.com/moku/)
 
+> **Open source plan** — This project will be open-sourced once this
+> repository passes **10,000 stars**.
+
 ## 📥 Downloads & Releases
 
 This is the public distribution repository for Moku. We release verified
@@ -16,11 +19,15 @@ official Releases:
 
 👉 **[Download Releases](https://github.com/wilsen0/moku/releases)**
 
-| Platform | Format |
-|---|---|
-| Android | APK Installer |
-| macOS | DMG Package |
-| Windows / Linux | Standalone Packages |
+| Platform | Status | Format |
+|---|---|---|
+| Android | ✅ Available | APK Installer |
+| iOS | 🚧 In preparation | — |
+| macOS | 🚧 In preparation | — |
+| Windows / Linux | 🚧 In preparation | — |
+
+Each release ships with a `sha256` checksum — verify the download before
+installing.
 
 ## 🔒 Security & Privacy Compliance
 
