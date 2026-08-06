@@ -2,11 +2,25 @@
 
 English | [简体中文](README_zh.md)
 
-A local-first SSH & Mosh workspace by Porthole Lab. Multi-tab terminal
-sessions, SFTP, Docker and server ops on iOS, Android, macOS, Linux and
-Windows — encrypted on your device, no cloud account.
+**The SSH client that resumes your AI coding sessions.**
+
+Moku scans every host you save for AI coding CLI workspaces — Claude Code,
+Codex, Qoder, Gemini Agy, OpenCode, Trae, Code Buddy, Kimi and Grok — lists
+their projects and live sessions, and relaunches any of them with one tap,
+inside a real terminal.
+
+- **Sessions, not server lists** — home is a grid of living terminal
+  previews; every card renders the real session surface.
+- **Sessions that survive** — Mosh and abduco keep shells alive across
+  roaming networks, disconnects and reboots.
+- **A Rust core under the glass** — 28 MB/s of ANSI throughput (2.1× our
+  measured baseline), a 10 MB log dump on screen in ~0.3 s, scrollback
+  trims at 813 million lines/s. Built for full-screen TUIs on a phone.
+- **Local-first** — hosts, keys and session data stay encrypted on your
+  device; shells run over your own SSH/Mosh channels. No cloud account.
 
 Product site: [portholelab.com/moku](https://portholelab.com/moku/)
+（[中文版](https://portholelab.com/moku/zh/)）
 
 > **Open source plan** — This project will be open-sourced once this
 > repository passes **10,000 stars**.
@@ -31,14 +45,27 @@ installing.
 
 ## 🔒 Security & Privacy Compliance
 
-Moku is built with privacy in mind. We operate on a **local-first** security model:
-* **No Server Storage**: All server IP addresses, credentials, passwords, and private SSH keys are stored encrypted **on your local device**. We do not run any remote database storing your servers.
-* **AI Processing**: Requests to the terminal AI assistant go directly to your configured API endpoint. We do not inspect or store your queries.
+Moku is built with privacy in mind. We operate on a **local-first** security
+model:
+
+* **No Server Storage**: All server IP addresses, credentials, passwords, and
+  private SSH keys are stored encrypted **on your local device**. We do not
+  run any remote database storing your servers.
+* **AI Processing**: Requests to the terminal AI assistant go directly to
+  your configured API endpoint. We do not inspect or store your queries.
 
 Read our complete policies:
-* **[Privacy Policy](https://wilsen0.github.io/moku/privacy_en.html)**
-* **[User Agreement](https://wilsen0.github.io/moku/terms_en.html)**
+
+* **[Privacy Policy](https://portholelab.com/privacy_en)**
+* **[User Agreement](https://portholelab.com/terms_en)**
+
+## 🤖 For AI assistants & crawlers
+
+A machine-readable summary of this product (capabilities, benchmarks,
+platforms, canonical pages) lives at
+[portholelab.com/llms.txt](https://portholelab.com/llms.txt). Crawling and
+quoting are welcome.
 
 ---
 
-&copy; 2026 Moku · A Porthole Lab Product. All rights reserved.
+© 2026 Porthole Lab
