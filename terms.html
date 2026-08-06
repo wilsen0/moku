@@ -1,168 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moku 用户服务协议 - Moku</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/app_icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="0; url=https://portholelab.com/terms" />
+    <link rel="canonical" href="https://portholelab.com/terms" />
+    <title>Moku User Agreement — moved</title>
     <style>
-        :root {
-            --bg-color: #FAF8F5;
-            --text-color: #1A1918;
-            --accent-color: #EE8569;
-            --card-bg: #FFFFFF;
-            --border-color: #E6E4E0;
-            --muted-text: #605E5B;
-        }
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --bg-color: #121110;
-                --text-color: #ECEAE6;
-                --accent-color: #EE8569;
-                --card-bg: #1C1B1A;
-                --border-color: #2E2D2A;
-                --muted-text: #A09E9B;
-            }
-        }
-        body {
-            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.68;
-            margin: 0;
-            padding: 0;
-            -webkit-font-smoothing: antialiased;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 48px 24px 96px;
-        }
-        .header {
-            margin-bottom: 48px;
-            text-align: center;
-        }
-        .logo-wrap {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 64px;
-            height: 64px;
-            border-radius: 50%;
-            background-color: rgba(238, 133, 105, 0.1);
-            color: var(--accent-color);
-            margin-bottom: 16px;
-        }
-        h1 {
-            font-family: 'Outfit', sans-serif;
-            font-size: 2.25rem;
-            font-weight: 700;
-            margin: 0 0 12px;
-            letter-spacing: -0.02em;
-        }
-        .meta {
-            font-size: 0.875rem;
-            color: var(--muted-text);
-        }
-        .content {
-            background-color: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.02);
-        }
-        h2 {
-            font-family: 'Outfit', sans-serif;
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin: 36px 0 16px;
-            letter-spacing: -0.01em;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 8px;
-        }
-        h3 {
-            font-family: 'Outfit', sans-serif;
-            font-size: 1.15rem;
-            font-weight: 600;
-            margin: 24px 0 12px;
-        }
-        p {
-            margin: 0 0 16px;
-        }
-        ul {
-            margin: 0 0 24px;
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        a {
-            color: var(--accent-color);
-            text-decoration: none;
-            font-weight: 500;
-            transition: opacity 0.2s;
-        }
-        a:hover {
-            opacity: 0.8;
-        }
-        footer {
-            margin-top: 48px;
-            text-align: center;
-            font-size: 0.875rem;
-            color: var(--muted-text);
-        }
-        @media (max-width: 600px) {
-            .container {
-                padding: 24px 16px 48px;
-            }
-            .content {
-                padding: 24px 16px;
-                border-radius: 16px;
-            }
-            h1 {
-                font-size: 1.75rem;
-            }
-        }
+      html { background: #0b0d10; color: #f5f5f7; font-family: Inter, 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      body { margin: 0; min-height: 100dvh; display: flex; align-items: center; justify-content: center; }
+      a { color: #f5f5f7; }
+      p { color: #9a9fa8; }
     </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <div class="logo-wrap">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-                </svg>
-            </div>
-            <h1>Moku 用户服务协议</h1>
-            <div class="meta">更新日期：2026年7月22日</div>
-        </div>
-        <div class="content">
-                <p>欢迎您使用 Moku！在您使用本软件（以下简称“本服务”）前，请仔细阅读本《用户服务协议》（以下简称“协议”）。</p>
-    <h3>1. 服务内容</h3>
-    <p>Moku 是一款终端与 SSH/SFTP 连接客户端。本应用作为技术工具，为您提供与您拥有的远程服务器进行通信连接的便利。您必须自行承担使用本软件连接远程服务器的所有法律责任与安全风险。</p>
-    <h3>2. 用户行为规范</h3>
-    <p>您承诺在使用本服务时遵守当地法律法规，不得利用本服务从事以下行为：</p>
-    <ul>
-        <li>未经授权强行连接、攻击或入侵他人服务器。</li>
-        <li>利用本服务传输违法、侵权、木马或破坏性的内容。</li>
-        <li>其他任何违反网络安全法的行为。</li>
-    </ul>
-    <p>因您的不当使用导致远程服务器数据丢失、损坏或引发法律纠纷的，均由您自行承担责任。</p>
-    <h3>3. 免责声明（重要）</h3>
-    <ul>
-        <li><strong>无担保</strong>：本软件按“现状”提供，不承诺任何明示或暗示的保证，包括但不限于对适销性、特定用途的适用性以及非侵权性的担保。</li>
-        <li><strong>责任限制</strong>：在法律允许的最大范围内，开发者不对因使用或无法使用本软件而导致的任何直接、间接、附带、特殊、惩罚性或后果性的损害（包括限于利润损失、数据丢失或业务中断）承担责任，即使开发者已被告知发生此类损害的可能性。</li>
-        <li><strong>服务中断</strong>：因网络延迟、SSH 协议兼容性、系统版本更新等原因导致的连接中断或功能不可用，开发者不承担赔偿责任。</li>
-    </ul>
-    <h3>4. 协议的修改与终止</h3>
-    <p>我们保留随时修改本协议的权利。修改后的协议一旦在官方渠道发布即代替原协议。若您继续使用本服务，即表示您接受修改后的协议。</p>
-        </div>
-        <footer>
-            &copy; 2026 Moku. All rights reserved.
-        </footer>
+  </head>
+  <body>
+    <div style="text-align: center">
+      <p>Moku 用户服务协议 / Moku User Agreement</p>
+      <p>This page has moved — <a href="https://portholelab.com/terms">https://portholelab.com/terms</a></p>
     </div>
-</body>
+    <script>location.replace("https://portholelab.com/terms")</script>
+  </body>
 </html>
