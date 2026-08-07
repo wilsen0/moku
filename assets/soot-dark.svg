@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 48" width="140" fill="none">
+  <!-- Soot, the Moku mascot — dark-theme variant (GitHub dark #0d1117) -->
+  <ellipse cx="28" cy="44" rx="14" ry="2.4" fill="#010409"/>
+  <ellipse cx="28" cy="28" rx="15" ry="14" fill="#1b222b"/>
+  <ellipse cx="28" cy="28" rx="16.5" ry="15.4" fill="none" stroke="#4a525c" stroke-width="2" stroke-dasharray="3 2.4"/>
+  <path d="M21 15.5 Q28 12 35 15.5" stroke="#a8894a" stroke-opacity="0.85" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <ellipse cx="22.6" cy="26.4" rx="3.4" ry="3.8" fill="#f7fafa"/>
+  <ellipse cx="33.4" cy="26.4" rx="3.4" ry="3.8" fill="#f7fafa"/>
+  <circle cx="22.9" cy="27.4" r="1.6" fill="#020305"/>
+  <circle cx="33.7" cy="27.4" r="1.6" fill="#020305"/>
+</svg>
