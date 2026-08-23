@@ -117,8 +117,8 @@ Moku 自动扫描远程主机上的 AI 编程工作区 —— **Claude Code、Op
 
 | 平台 | 当前状态 | 发布格式 |
 |---|---|---|
-| **Android (安卓)** | ✅ 已上线 | APK 安装包 (`arm64-v8a` / `armeabi-v7a` / `x86_64`) |
-| **iOS (苹果)** | 🚧 筹备中 | TestFlight / App Store |
+| **Android (安卓)** | ✅ 已上线 | APK 安装包 (`arm64-v8a` / `armeabi-v7a` / `x86_64` / `通用版`) |
+| **iOS (苹果)** | ✅ 公开测试 | [TestFlight 公测加入](https://testflight.apple.com/join/w7CFhrRT) |
 | **macOS** | 🚧 筹备中 | DMG / Universal 二进制 |
 | **Windows / Linux** | 🚧 筹备中 | MSIX / AppImage / DEB |
 

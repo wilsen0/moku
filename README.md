@@ -117,8 +117,8 @@ Official releases and installation packages are published on GitHub Releases:
 
 | Platform | Status | Package Format |
 |---|---|---|
-| **Android** | ✅ Available | APK (`arm64-v8a`, `armeabi-v7a`, `x86_64`) |
-| **iOS** | 🚧 In Preparation | TestFlight / App Store |
+| **Android** | ✅ Available | APK (`arm64-v8a`, `armeabi-v7a`, `x86_64`, Universal) |
+| **iOS** | ✅ Public Beta | [TestFlight Public Beta](https://testflight.apple.com/join/w7CFhrRT) |
 | **macOS** | 🚧 In Preparation | DMG / Universal Binary |
 | **Windows / Linux** | 🚧 In Preparation | MSIX / AppImage / DEB |
 
