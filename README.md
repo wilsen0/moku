@@ -12,6 +12,7 @@
 <p align="center">
   <a href="https://portholelab.com/moku/">Product Website</a> ·
   <a href="https://github.com/wilsen0/moku/releases">Download Releases</a> ·
+  <a href="https://github.com/wilsen0/moku/discussions/1">⭐ 10k Stars Roadmap</a> ·
   English | <a href="README_zh.md">简体中文</a>
 </p>
 
@@ -19,7 +20,7 @@
   <img alt="Platform: iOS 16+ | Android 8+ | macOS | Linux | Windows" src="https://img.shields.io/badge/platform-iOS%20|%20Android%20|%20macOS%20|%20Linux%20|%20Windows-blue?style=flat-square">
   <img alt="Terminal Engine: Rust Core" src="https://img.shields.io/badge/engine-Rust%20Core-orange?style=flat-square">
   <img alt="Framework: Flutter" src="https://img.shields.io/badge/framework-Flutter-cyan?style=flat-square">
-  <img alt="Open Source: at 10k stars" src="https://img.shields.io/badge/open%20source-at%2010k%20stars-brightgreen?style=flat-square">
+  <a href="https://github.com/wilsen0/moku/discussions/1"><img alt="Open Source: at 10k stars" src="https://img.shields.io/badge/open%20source-at%2010k%20stars-brightgreen?style=flat-square"></a>
 </p>
 
 ---

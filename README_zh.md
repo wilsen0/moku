@@ -12,6 +12,7 @@
 <p align="center">
   <a href="https://portholelab.com/moku/zh/">官方产品站</a> ·
   <a href="https://github.com/wilsen0/moku/releases">安装包下载</a> ·
+  <a href="https://github.com/wilsen0/moku/discussions/1">⭐ 10k Stars 开源路线图</a> ·
   <a href="README.md">English</a> | 简体中文
 </p>
 
@@ -19,7 +20,7 @@
   <img alt="平台支持: iOS 16+ | Android 8+ | macOS | Linux | Windows" src="https://img.shields.io/badge/平台-iOS%20|%20Android%20|%20macOS%20|%20Linux%20|%20Windows-blue?style=flat-square">
   <img alt="终端引擎: Rust Core" src="https://img.shields.io/badge/终端核心-Rust%20Core-orange?style=flat-square">
   <img alt="开发框架: Flutter" src="https://img.shields.io/badge/框架-Flutter-cyan?style=flat-square">
-  <img alt="开源计划: 10k Stars 开源" src="https://img.shields.io/badge/开源计划-10k%20Stars%20开源-brightgreen?style=flat-square">
+  <a href="https://github.com/wilsen0/moku/discussions/1"><img alt="开源计划: 10k Stars 开源" src="https://img.shields.io/badge/开源计划-10k%20Stars%20开源-brightgreen?style=flat-square"></a>
 </p>
 
 ---
