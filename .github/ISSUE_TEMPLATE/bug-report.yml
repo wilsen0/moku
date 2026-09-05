@@ -1,0 +1,35 @@
+name: 🐛 Bug Report
+description: Create a report to help us fix an issue.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug.
+  - type: dropdown
+    id: os
+    attributes:
+      label: Platform
+      options:
+        - iOS (TestFlight)
+        - Android (APK)
+        - macOS
+        - Linux
+        - Windows
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App Version
+      placeholder: "e.g. v3.1.4"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce & Expected Behavior
+      placeholder: "1. Connect via SSH/Mosh...\n2. Tap on session..."
+    validations:
+      required: true

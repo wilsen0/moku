@@ -1,0 +1,38 @@
+name: 🤖 Request Support for an AI Coding CLI
+description: Suggest a new AI coding harness/CLI for Moku to auto-scan and resume.
+title: "[CLI Request]: "
+labels: ["enhancement", "ai-cli-scanner"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping expand Moku's AI coding ecosystem! Moku currently scans 12+ CLIs (Claude Code, OpenAI Codex, OpenCode, Agy, Trae, Qoder, MiniMax Code, Oh My Pi, DeepSeek Harness, Code Buddy, Kimi, Grok). Tell us which CLI you use!
+  - type: input
+    id: cli_name
+    attributes:
+      label: CLI Name & Command
+      description: The name and launch command of the AI coding tool (e.g. cursor-agent, aider, devin).
+      placeholder: "e.g. aider"
+    validations:
+      required: true
+  - type: input
+    id: session_path
+    attributes:
+      label: Workspace & Session Storage Path
+      description: Where does this CLI store session history, projects, or SQLite databases on disk?
+      placeholder: "e.g. ~/.aider/history/ or ~/.local/share/..."
+    validations:
+      required: true
+  - type: input
+    id: resume_cmd
+    attributes:
+      label: Resume Syntax
+      description: How do you resume an existing session from the terminal?
+      placeholder: "e.g. aider --restore-chat <id> or claude --resume <id>"
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any docs link, repository URL, or sample output.

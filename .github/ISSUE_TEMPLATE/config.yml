@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discussions & Roadmap
+    url: https://github.com/wilsen0/moku/discussions
+    about: Ask questions, vote on milestone features, or chat about vibe coding!
+  - name: 📱 Join iOS TestFlight Beta
+    url: https://testflight.apple.com/join/w7CFhrRT
+    about: Test the latest builds on your iPhone/iPad!
