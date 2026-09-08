@@ -17,6 +17,10 @@
 </p>
 
 <p align="center">
+  <a href="https://www.producthunt.com/products/moku?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-moku" target="_blank" rel="noopener noreferrer"><img alt="Moku - The SSH workspace that resumes your AI coding sessions | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1244350&theme=neutral"></a>
+</p>
+
+<p align="center">
   <img alt="Platform: iOS 16+ | Android 8+ | macOS | Linux | Windows" src="https://img.shields.io/badge/platform-iOS%20|%20Android%20|%20macOS%20|%20Linux%20|%20Windows-blue?style=flat-square">
   <img alt="Terminal Engine: Rust Core" src="https://img.shields.io/badge/engine-Rust%20Core-orange?style=flat-square">
   <img alt="Framework: Flutter" src="https://img.shields.io/badge/framework-Flutter-cyan?style=flat-square">
