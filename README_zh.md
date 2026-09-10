@@ -33,14 +33,6 @@ Moku 自动扫描远程主机上的 AI 编程工作区 —— **Claude Code、Op
 
 界面之下搭载了 **自研高性能 Rust 终端核心** 与 **Mosh/abduco 级会话防掉线架构**，专为移动端与桌面端的流畅命令行操作而生。
 
-<p align="center">
-  <img src="assets/shots/12-cli-picker.png" width="220" alt="一台主机上扫出九个编程工作区">
-  &nbsp;&nbsp;
-  <img src="assets/shots/40-coding-sessions.png" width="220" alt="按项目聚合的历史会话列表">
-  &nbsp;&nbsp;
-  <img src="assets/shots/47-terminal-cmd.png" width="220" alt="在 Rust 终端中运行 AI Agent 会话">
-</p>
-
 ---
 
 ## 🌟 核心亮点

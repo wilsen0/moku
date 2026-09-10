@@ -33,14 +33,6 @@ Moku automatically scans remote hosts to discover your active AI coding workspac
 
 Underneath the glass is a **high-throughput Rust terminal core** and **Mosh/abduco zero-drop persistence**, engineered specifically for fluid command-line workflows on mobile and desktop.
 
-<p align="center">
-  <img src="assets/shots/12-cli-picker.png" width="220" alt="Nine CLI workspaces found on one host">
-  &nbsp;&nbsp;
-  <img src="assets/shots/40-coding-sessions.png" width="220" alt="A real scan of one of our dev hosts">
-  &nbsp;&nbsp;
-  <img src="assets/shots/47-terminal-cmd.png" width="220" alt="A Rust-powered SSH session running an AI agent">
-</p>
-
 ---
 
 ## 🌟 Key Highlights
