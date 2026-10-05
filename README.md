@@ -125,6 +125,16 @@ Official releases and installation packages are published on GitHub Releases:
 
 ---
 
+## 💬 Community & Feedback
+
+- 🐧 **QQ Group: `1081368637`** — scan to join:
+
+  <img src="assets/qq-group.jpg" width="280" alt="Moku QQ group QR code">
+
+- 💡 Prefer GitHub? Open a [Discussion](https://github.com/wilsen0/moku/discussions) or file an Issue — English / 中文都欢迎。
+
+---
+
 ## 🔒 Security & Privacy
 
 Local-first by construction:

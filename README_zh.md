@@ -125,6 +125,16 @@ Moku 自动扫描远程主机上的 AI 编程工作区 —— **Claude Code、Op
 
 ---
 
+## 💬 交流与反馈
+
+- 🐧 **QQ 交流群：`1081368637`**（天才程序员会议厅）— QQ 扫码加入：
+
+  <img src="assets/qq-group.jpg" width="280" alt="Moku QQ 交流群二维码">
+
+- 💡 也可以在 [GitHub Discussions](https://github.com/wilsen0/moku/discussions) 提问题、聊需求，中英文都欢迎。
+
+---
+
 ## 🔒 安全与隐私合规说明
 
 本地优先，不是口号，是架构：
