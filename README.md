@@ -27,6 +27,10 @@
   <a href="https://github.com/wilsen0/moku/discussions/1"><img alt="Open Source: at 10k stars" src="https://img.shields.io/badge/open%20source-at%2010k%20stars-brightgreen?style=flat-square"></a>
 </p>
 
+<p align="center">
+  <video src="https://github.com/wilsen0/moku/raw/main/film/moku-film.mp4" poster="https://github.com/wilsen0/moku/raw/main/film/poster.jpg" controls playsinline width="720"></video>
+</p>
+
 ---
 
 Moku automatically scans remote hosts to discover your active AI coding workspaces — **Claude Code, OpenAI Codex, Qoder, Antigravity (Agy), OpenCode, MiniMax Code, Oh My Pi, DeepSeek Harness, Trae, Code Buddy, Kimi, Grok** — grouping projects and sessions so you can jump right back in with a single tap.

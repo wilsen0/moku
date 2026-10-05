@@ -27,6 +27,10 @@
   <a href="https://github.com/wilsen0/moku/discussions/1"><img alt="开源计划: 10k Stars 开源" src="https://img.shields.io/badge/开源计划-10k%20Stars%20开源-brightgreen?style=flat-square"></a>
 </p>
 
+<p align="center">
+  <video src="https://github.com/wilsen0/moku/raw/main/film/moku-film.mp4" poster="https://github.com/wilsen0/moku/raw/main/film/poster.jpg" controls playsinline width="720"></video>
+</p>
+
 ---
 
 Moku 自动扫描远程主机上的 AI 编程工作区 —— **Claude Code、OpenAI Codex、Qoder、Antigravity (Agy)、OpenCode、MiniMax Code、Oh My Pi、DeepSeek Harness、Trae、Code Buddy、Kimi、Grok**，聚合项目与历史会话，手机/电脑上随时一键续接中断的编程任务。
