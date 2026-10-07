@@ -3,6 +3,9 @@ contact_links:
   - name: 💬 Community Discussions & Roadmap
     url: https://github.com/wilsen0/moku/discussions
     about: Ask questions, vote on milestone features, or chat about vibe coding!
-  - name: 📱 Join iOS TestFlight Beta
+  - name: 📱 Download on the App Store
+    url: https://apps.apple.com/app/id6800746191
+    about: Moku for iPhone and iPad — the released build.
+  - name: 🧪 Join the iOS TestFlight Beta
     url: https://testflight.apple.com/join/w7CFhrRT
-    about: Test the latest builds on your iPhone/iPad!
+    about: Test the next builds early. Also the fallback for the China mainland store, where the App Store listing is not available.

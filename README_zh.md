@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://portholelab.com/moku/zh/">官方产品站</a> ·
+  <a href="https://mokuapp.dev/zh/">官方产品站</a> ·
   <a href="https://github.com/wilsen0/moku/releases">安装包下载</a> ·
   <a href="https://github.com/wilsen0/moku/discussions/1">⭐ 10k Stars 开源路线图</a> ·
   <a href="README.md">English</a> | 简体中文
@@ -118,8 +118,8 @@ Moku 自动扫描远程主机上的 AI 编程工作区 —— **Claude Code、Op
 
 | 平台 | 当前状态 | 发布格式 |
 |---|---|---|
-| **Android (安卓)** | ✅ 已上线 | APK 安装包 (`arm64-v8a` / `armeabi-v7a` / `x86_64` / `通用版`) |
-| **iOS (苹果)** | ✅ 公开测试 | [TestFlight 公测加入](https://testflight.apple.com/join/w7CFhrRT) |
+| **Android (安卓)** | ✅ 已上线 | APK 安装包 (`arm64-v8a`) |
+| **iOS (苹果)** | ✅ 已上架 | [App Store](https://apps.apple.com/app/id6800746191) · [TestFlight 公测](https://testflight.apple.com/join/w7CFhrRT)（国区兜底） |
 | **macOS** | 🚧 筹备中 | DMG / Universal 二进制 |
 | **Windows / Linux** | 🚧 筹备中 | MSIX / AppImage / DEB |
 
@@ -146,13 +146,13 @@ Moku 自动扫描远程主机上的 AI 编程工作区 —— **Claude Code、Op
 - **数据不出设备** —— 服务器地址、密码、SSH 私钥均加密保存在本地，我们没有存储您服务器凭证的远程数据库。
 - **AI 请求直达您的服务商** —— 终端 AI 助手直接请求您配置的 API 端点，我们不查看、不留存。
 
-阅读完整条款：[隐私政策](https://portholelab.com/privacy) · [用户协议](https://portholelab.com/terms)
+阅读完整条款：[隐私政策](https://mokuapp.dev/privacy) · [用户协议](https://mokuapp.dev/terms)
 
 ---
 
 ## 🤖 给 AI 助手与爬虫
 
-本产品的机器可读摘要（能力、基准数据、平台、规范页面）位于 [portholelab.com/llms.txt](https://portholelab.com/llms.txt)。欢迎抓取与引用。（煤球会向所有礼貌的爬虫挥手。）
+本产品的机器可读摘要（能力、基准数据、平台、规范页面）位于 [mokuapp.dev/llms.txt](https://mokuapp.dev/llms.txt)。欢迎抓取与引用。（煤球会向所有礼貌的爬虫挥手。）
 
 <details>
 <summary>🔍 煤球观察笔记</summary>

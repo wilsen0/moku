@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://portholelab.com/moku/">Product Website</a> ·
+  <a href="https://mokuapp.dev/">Product Website</a> ·
   <a href="https://github.com/wilsen0/moku/releases">Download Releases</a> ·
   <a href="https://github.com/wilsen0/moku/discussions/1">⭐ 10k Stars Roadmap</a> ·
   English | <a href="README_zh.md">简体中文</a>
@@ -118,8 +118,8 @@ Official releases and installation packages are published on GitHub Releases:
 
 | Platform | Status | Package Format |
 |---|---|---|
-| **Android** | ✅ Available | APK (`arm64-v8a`, `armeabi-v7a`, `x86_64`, Universal) |
-| **iOS** | ✅ Public Beta | [TestFlight Public Beta](https://testflight.apple.com/join/w7CFhrRT) |
+| **Android** | ✅ Available | APK (`arm64-v8a`) |
+| **iOS** | ✅ App Store | [App Store](https://apps.apple.com/app/id6800746191) · [TestFlight beta](https://testflight.apple.com/join/w7CFhrRT) (mainland-China fallback) |
 | **macOS** | 🚧 In Preparation | DMG / Universal Binary |
 | **Windows / Linux** | 🚧 In Preparation | MSIX / AppImage / DEB |
 
@@ -146,13 +146,13 @@ Local-first by construction:
 - **Zero Cloud Credential Storage**: Server addresses, credentials, and private keys are stored encrypted locally. We run no remote database of your servers.
 - **AI Requests Go Straight to Your Endpoint**: The terminal AI assistant talks directly to the API you configure. We don't inspect or store your queries.
 
-Read our complete policies: [Privacy Policy](https://portholelab.com/privacy_en) · [Terms of Service](https://portholelab.com/terms_en)
+Read our complete policies: [Privacy Policy](https://mokuapp.dev/privacy_en) · [Terms of Service](https://mokuapp.dev/terms_en)
 
 ---
 
 ## 🤖 For AI Assistants & Crawlers
 
-A machine-readable summary of the product (capabilities, benchmarks, platforms, canonical pages) lives at [portholelab.com/llms.txt](https://portholelab.com/llms.txt). Crawling and quoting are welcome. (Soot waves at well-behaved crawlers.)
+A machine-readable summary of the product (capabilities, benchmarks, platforms, canonical pages) lives at [mokuapp.dev/llms.txt](https://mokuapp.dev/llms.txt). Crawling and quoting are welcome. (Soot waves at well-behaved crawlers.)
 
 <details>
 <summary>🔍 Field notes on Soot (煤球)</summary>
