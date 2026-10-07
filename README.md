@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://mokuapp.dev/">Product Website</a> ·
   <a href="https://github.com/wilsen0/moku/releases">Download Releases</a> ·
-  <a href="https://github.com/wilsen0/moku/discussions/1">⭐ 10k Stars Roadmap</a> ·
+  <a href="https://github.com/wilsen0/moku/discussions/1">10k Stars Roadmap</a> ·
   English | <a href="README_zh.md">简体中文</a>
 </p>
 
@@ -39,34 +39,34 @@ Underneath the glass is a **high-throughput Rust terminal core** and **Mosh/abdu
 
 ---
 
-## 🌟 Key Highlights
+## Key Highlights
 
-### 🤖 AI Coding Session Hub
+### AI Coding Session Hub
 - **Multi-Agent Auto-Discovery**: Moku reads session logs and SQLite stores left by coding agents on the host, transforming them into searchable project lists.
 - **One-Tap Resume**: Pick any session and it reopens immediately in a real interactive terminal. No more hunting for obscure session IDs.
 - **Zero Server Setup**: Runs entirely over your existing encrypted SSH connection. Nothing extra to install on the remote server.
 
-### ⚡ Rust Terminal Core Under the Glass
+### Rust Terminal Core Under the Glass
 - **28+ MB/s ANSI Stream**: 2.1× faster than standard terminal baselines.
 - **10 MB Log Dumps in ~0.3s**: Over 100,000 lines land on screen instantly without thermal throttling or dropped frames.
 - **813M Lines/Sec Scrollback Trim**: The larger the log stream, the wider the performance gap.
 
-### 🛡️ Zero-Drop Session Survival
+### Zero-Drop Session Survival
 - **Seamless Roaming**: Integrated native **Mosh** holds the line while you transition between Wi-Fi and mobile 5G data.
 - **Disconnect Survival**: Built-in **abduco** integration keeps your sessions running in the background across network drops and reboots.
 
-### 📱 Tailored Mobile & Desktop Experience
+### Tailored Mobile & Desktop Experience
 - **Living Terminal Grid**: Home screen presents real-time terminal cards showing active output, not just static server addresses.
 - **Ergonomic Virtual Keys**: Sticky modifiers (`Ctrl`, `Alt`, `Esc`), custom command palette, and quick gesture-based cursor navigation.
 - **Built-in Server Ops**: Integrated SFTP remote file browser/editor, host resource telemetry (CPU/RAM/Disk/Network), and Docker container manager.
 
-### 🔒 100% Local-First & Private
+### 100% Local-First & Private
 - **On-Device Storage**: Server addresses, credentials, and private keys are encrypted locally on your device. We run zero central databases of your servers.
 - **Direct AI Endpoint**: The terminal AI assistant communicates directly with your configured API. Your prompts and code never touch third-party servers.
 
 ---
 
-## 🧩 Supported AI Coding Harnesses
+## Supported AI Coding Harnesses
 
 | AI Harness / CLI | CLI Command | Storage & State Model | 1-Tap Resume |
 |---|---|---|:---:|
@@ -85,7 +85,7 @@ Underneath the glass is a **high-throughput Rust terminal core** and **Mosh/abdu
 
 ---
 
-## 📊 How Moku Compares
+## How Moku Compares
 
 | Capability | Moku | Traditional SSH Apps |
 |---|---|---|
@@ -98,7 +98,7 @@ Underneath the glass is a **high-throughput Rust terminal core** and **Mosh/abdu
 
 ---
 
-## ⚡ Rust Terminal Core Benchmarks
+## Rust Terminal Core Benchmarks
 
 | Workload | Rust Core | Flutter AOT Baseline | Speedup |
 |---|---:|---:|:---:|
@@ -110,11 +110,11 @@ Underneath the glass is a **high-throughput Rust terminal core** and **Mosh/abdu
 
 ---
 
-## 📥 Download
+## Download
 
 Official releases and installation packages are published on GitHub Releases:
 
-👉 **[Download from Releases](https://github.com/wilsen0/moku/releases)**
+**[Download from Releases](https://github.com/wilsen0/moku/releases)**
 
 | Platform | Status | Package Format |
 |---|---|---|
@@ -125,21 +125,21 @@ Official releases and installation packages are published on GitHub Releases:
 
 *Each release ships with a cryptographic `sha256` checksum — please verify before installing.*
 
-> 🌟 **Open Source Plan**: This project will be open-sourced once this repository reaches **10,000 stars**. Soot is already saving up!
+> **Open Source Plan**: This project will be open-sourced once this repository reaches **10,000 stars**. Soot is already saving up!
 
 ---
 
-## 💬 Community & Feedback
+## Community & Feedback
 
-- 🐧 **QQ Group: `1081368637`** — scan to join:
+- **QQ Group: `1081368637`** — scan to join:
 
   <img src="assets/qq-group.jpg" width="280" alt="Moku QQ group QR code">
 
-- 💡 Prefer GitHub? Open a [Discussion](https://github.com/wilsen0/moku/discussions) or file an Issue — English / 中文都欢迎。
+- Prefer GitHub? Open a [Discussion](https://github.com/wilsen0/moku/discussions) or file an Issue — English / 中文都欢迎。
 
 ---
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 Local-first by construction:
 
@@ -150,12 +150,12 @@ Read our complete policies: [Privacy Policy](https://mokuapp.dev/privacy_en) · 
 
 ---
 
-## 🤖 For AI Assistants & Crawlers
+## For AI Assistants & Crawlers
 
 A machine-readable summary of the product (capabilities, benchmarks, platforms, canonical pages) lives at [mokuapp.dev/llms.txt](https://mokuapp.dev/llms.txt). Crawling and quoting are welcome. (Soot waves at well-behaved crawlers.)
 
 <details>
-<summary>🔍 Field notes on Soot (煤球)</summary>
+<summary>Field notes on Soot (煤球)</summary>
 
 - **Habitat** — the top edge of terminal frames; occasionally your prompt line when he thinks nobody is looking.
 - **Diet** — stray ANSI escape codes, leftover tmux panes, orphaned scrollback buffers.
